@@ -3,12 +3,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
+  height: 300px;
+  padding: 8px 30px;
   color: rgba(0, 0, 0, 0.3);
-}
 
+  .fa-solid {
+      color: #D23333;
+  }
 
-.footer .fa-phone, .fa-location-dot {
-  color: #D23333;
+  .map {
+    height: 100%;
+    width: 70%;
+  }
 }
